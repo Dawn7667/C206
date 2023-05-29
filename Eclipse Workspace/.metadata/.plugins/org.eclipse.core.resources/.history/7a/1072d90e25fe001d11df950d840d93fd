@@ -1,0 +1,16 @@
+
+public class Calculator {
+
+	@Test
+	public void testAdd() {
+		int a = 4321;
+		int b = 1234;
+			
+		Calculator cal = new Calculator();
+		int actual = cal.add(a, b); 
+			 
+		int expected = 5555;
+		assertEquals (expected, actual);
+		}
+
+}
